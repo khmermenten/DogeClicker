@@ -38,15 +38,7 @@ implements ActionListener
         doge.addActionListener(this);
         doge.setToolTipText("AWOOOOO");
         add(doge);
-    }
-
-    public void directions()
-    {
-        System.out.println("Welcome to Doge Clicker!\nThis is a sandbox type game in which you try to obtain as many doges as possible!"); 
-        System.out.println("Use your doges to buy things that make more doges for you!\nThe more you experiment, the more you will progress.");
-        System.out.println("Start by opening the openDogeClicker method, and proceed to cover the universe in doge!\nType 'exit' to stop the method. Good luck!");
-    }
-
+   }
     public static void main(String[] args) 
     {
         javax.swing.SwingUtilities.invokeLater(new Runnable() 
