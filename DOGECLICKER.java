@@ -12,12 +12,12 @@ public class DOGECLICKER extends JPanel
 implements ActionListener
 {
     //STATS
-    private int deepz;
-    private int currentDoges;
-    private int dogesAllTime;
-    private double timeElapsed;
-    private DogeBuilding[] buildings;
-    private JButton doge;
+    private static int deepz;
+    private static int currentDoges;
+    private static int dogesAllTime;
+    private static double timeElapsed;
+    private static DogeBuilding[] buildings;
+    private static JButton doge;
 
     DOGECLICKER()
     {
@@ -47,7 +47,7 @@ implements ActionListener
         System.out.println("Start by opening the openDogeClicker method, and proceed to cover the universe in doge!\nType 'exit' to stop the method. Good luck!");
     }
 
-    public void openDogeClicker() 
+    public static void main(String[] args) 
     {
         javax.swing.SwingUtilities.invokeLater(new Runnable() 
             {
